@@ -1,0 +1,9 @@
+import re
+x="[a-zA-Z0-9]+@[a-z]+\.(com|net|gov|org)"
+user_input=input("enter the email address:")
+if(re.search(x,user_input)):
+        print("valid email address")
+else:
+        print("invalid email address")
+
+
