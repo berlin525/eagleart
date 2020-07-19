@@ -7,3 +7,4 @@ else:
         print("invalid email address")
 
 
+this is the code to extract email from any file.
